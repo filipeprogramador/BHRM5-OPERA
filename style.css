@@ -1,0 +1,74 @@
+
+h3 {
+    color:red;    
+    text-align:center
+    }
+    h2 {
+    color:crimson    
+    }
+
+    h2, p{
+        text-align:center;
+    }
+
+    a{
+        color:black;
+        font-size: 20px;
+        text-decoration: none;
+        margin:0 10px;
+    }
+
+    .menu {
+        background-color: rgb(180, 26, 15);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .items{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap
+    }
+    .rodape{
+        display: flex;
+        justify-content: center;
+       width:100%;
+       background-color: rgb(185, 30, 9);
+        padding:20px;
+        font-size: 30px;
+        position: fixed;
+        bottom:0
+    }
+
+    .pagProject{
+        background-image: url('black houk.jpg');
+        
+    }
+    .pagAboutMe{
+        background-image: url('nick.jpg');
+    }
+    
+
+    a:visited{
+        color:rgb(6, 4, 7)
+
+    }
+    .items div img:hover{
+        opacity: 
+        0.3;
+    }
+    .texto{
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 3pc;
+        font-style: normal;
+    }
+    .form{
+        justify-content: center;
+        color: rgb(39, 21, 143);
+        font-size: 3pc;
+    }
+    
